@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Content *)",
+      "Bash(New-Item -ItemType Directory -Path \"E:\\\\Claude\\\\wordpress\\\\site1-destinations-display\" -Force)",
+      "Bash(Out-Null)",
+      "PowerShell(Copy-Item *)",
+      "PowerShell(gh *)"
+    ]
+  }
+}
